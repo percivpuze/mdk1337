@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: ;
+    margin-top: 500px;
+    font-size: 50px;
+}
+
+.header{
+    color: white;
+    background-image: url(BACKGROUND.png);
+    height: 100vh;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_item{
+    display: inline-block;
+    padding: 10px;
+}
